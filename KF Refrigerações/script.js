@@ -43,3 +43,4 @@ document.addEventListener('click', (event) => {
         searchContainer.classList.remove('active');
     }
 });
+ 
