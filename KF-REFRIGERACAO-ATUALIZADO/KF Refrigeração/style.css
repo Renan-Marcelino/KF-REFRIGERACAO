@@ -169,7 +169,8 @@ body {
     opacity: 780%;
 }
 .sidebar.active-submenu .sub-menu {
-    max-height: 1000px; 
+    box-shadow: 0 0 7px rgba(0, 0, 0, 2);
+
 }
 .navigation {
     display: flex;
