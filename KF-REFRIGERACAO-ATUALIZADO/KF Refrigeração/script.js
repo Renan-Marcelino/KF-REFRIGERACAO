@@ -1,5 +1,3 @@
-
-
 const menu = document.querySelector('.menu');
 const NavMenu = document.querySelector('.nav-menu');
 
@@ -7,7 +5,7 @@ menu.addEventListener('click', () => {
     menu.classList.toggle('ativo');
     NavMenu.classList.toggle('ativo');
 });
- 
+
 function toggleSubMenu(subMenuId) {
     var subMenu = document.getElementById(subMenuId);
     subMenu.style.display = subMenu.style.display === 'block' ? 'none' : 'block';
@@ -45,7 +43,6 @@ document.addEventListener('click', (event) => {
         searchContainer.classList.remove('active');
     }
 });
-
 // Função para alternar a visibilidade do submenu
 function toggleSubMenu(subMenuId) {
     var subMenu = document.getElementById(subMenuId);
@@ -96,12 +93,12 @@ document.querySelector('.sm1').addEventListener('click', function () {
     var submenu = this.querySelector('ul');
     
     // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+    if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -110,13 +107,13 @@ document.querySelector('.sm2').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -125,13 +122,13 @@ document.querySelector('.sm3').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -140,13 +137,13 @@ document.querySelector('.sm4').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -155,13 +152,13 @@ document.querySelector('.sm5').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -170,13 +167,13 @@ document.querySelector('.sm6').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -185,13 +182,13 @@ document.querySelector('.sm7').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -200,13 +197,13 @@ document.querySelector('.sm8').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -215,13 +212,13 @@ document.querySelector('.sm9').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -230,13 +227,13 @@ document.querySelector('.sm10').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -245,13 +242,13 @@ document.querySelector('.sm11').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -260,13 +257,13 @@ document.querySelector('.sm12').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -275,13 +272,13 @@ document.querySelector('.sm13').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -290,13 +287,13 @@ document.querySelector('.sm14').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -320,13 +317,13 @@ document.querySelector('.sm16').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -335,13 +332,13 @@ document.querySelector('.sm17').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -350,13 +347,13 @@ document.querySelector('.sm18').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -365,13 +362,13 @@ document.querySelector('.sm19').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -380,13 +377,13 @@ document.querySelector('.sm20').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -395,13 +392,13 @@ document.querySelector('.sm21').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 
@@ -410,13 +407,13 @@ document.querySelector('.sm22').addEventListener('click', function () {
     // Seleciona o elemento ul que é o submenu
     var submenu = this.querySelector('ul');
     
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
+      // Verifica se o submenu está visível ou oculto
+      if (submenu.style.display === 'block') {
         // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
+        submenu.style.display = 'none';
     } else {
         // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
+        submenu.style.display = 'block'; 
     }s
 });
 

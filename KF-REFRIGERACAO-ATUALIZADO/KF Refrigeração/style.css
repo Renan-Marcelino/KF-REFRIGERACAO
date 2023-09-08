@@ -22,7 +22,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 18px 40px;
-    box-shadow: 0 0.1rem 0.5rem #1801ec;
+    box-shadow:  0 0.1rem 0.5rem ;
     width: 20;
     background: var(--white);
     transition: all 0.5s;
@@ -110,7 +110,7 @@ body{
         top: 98px;
         width: 30%;
         height: 100%;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 2);
+        box-shadow: 0 4px 7px rgba(0, 0, 0, 2);
         flex-direction: column;
         background: var(--white);
         gap: -10px;
@@ -137,7 +137,7 @@ body {
     left: 0;
     background-color: #ffffff;
     padding-top: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    box-shadow: 0 0 7px rgba(0, 0, 0, 2);
     height: calc(100vh - 100px);
     z-index: 999;
 }
@@ -147,7 +147,7 @@ body {
     text-decoration: none;
     font-size: 18px;
     color: rgb(0, 0, 0);
-    display: flex;
+    display: block;
 }
 .sub-menu {
     display: none;
@@ -162,7 +162,7 @@ body {
     text-decoration: none;
     font-size: 16px;
     color: rgb(0, 0, 0);
-    display: flex;
+    display: block;
 }
 .sidebar a:hover {
     background-color: rgb(255, 0, 0);
@@ -186,14 +186,13 @@ body {
 .bx-search {
     cursor: pointer;
     font-size: 2rem;
-    margin-left: auto;
     margin-right: 10px;
 }
 .search-bar {
     display: none;
     position: absolute;
     top: 0;
-    right: 60px; 
+    right: 30px; 
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 10px;
@@ -215,8 +214,8 @@ body {
     color: #f12828;
 }
 .search-container {
-    position: relative;
-    display: inline-flex;
+    justify-content: right;
+    display: flex;
     align-items: center;
 }
 #search-input {
@@ -229,14 +228,22 @@ body {
     transition: width 0.3s ease-in-out;
     overflow: hidden;
     white-space: nowrap;
+    order:1;
+    position: absolute; /* ou relative */
+    top: 25px;
+    right: 130px;
 }
 .search-container.active #search-input {
-    width: 400px;
+    width: 300px;
     border-bottom: 2px solid #333;
 }
 #search-icon {
+    position: absolute; /* ou relative */
+    top: 30px;
+    right: 80px;
     font-size: 2rem;
     cursor: pointer;
+    order: 1;
 }.navigation .search-icon {
     cursor: pointer;
     font-size: 1.5rem;
