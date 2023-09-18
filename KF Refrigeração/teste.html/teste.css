@@ -1,0 +1,4 @@
+/* Esconde o submenu por padrão */
+.submenu ul {
+    display: none;
+}
