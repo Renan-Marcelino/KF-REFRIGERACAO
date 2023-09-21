@@ -432,3 +432,4 @@ document.querySelector('.sm22').addEventListener('click', function () {
     }s
 });
 
+ 

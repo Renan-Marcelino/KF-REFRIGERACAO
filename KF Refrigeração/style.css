@@ -429,6 +429,30 @@ s
         left: 58%;
         transform: translate(-50%, -50%);
     }
+
+    .item1 {
+        font-size: 10PX;
+        width: 60%;
+        position: flex;
+        top: 0;
+        left: 10%;
+    }
+    #it1 {
+        width: 180px;
+    }
+    .item2 {
+        font-size: 13PX;
+        width: 80%;
+        position: flex;
+        top: 0;
+        left: 10%;
+    }
+    #it2 {
+        width: 180px;
+    }
+
+    
+
     
 }
 
