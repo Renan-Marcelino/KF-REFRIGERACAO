@@ -58,6 +58,8 @@ document.addEventListener('click', (event) => {
   }
 });
 
+
+
 // Função para alternar a visibilidade do submenu
 function toggleSubMenu(subMenuId) {
     var subMenu = document.getElementById(subMenuId);

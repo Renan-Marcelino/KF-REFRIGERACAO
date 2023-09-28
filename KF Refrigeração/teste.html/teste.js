@@ -1,14 +1,25 @@
-// Adiciona um evento de clique ao item do submenu
-document.querySelector('.submenu').addEventListener('click', function () {
-    // Seleciona o elemento ul que é o submenu
-    var submenu = this.querySelector('ul');
-    
-    // Verifica se o submenu está visível ou oculto
-    if (submenu.style.display === 'none') {
-        // Se estiver oculto, torna-o visível
-        submenu.style.display = 'block';
-    } else {
-        // Se estiver visível, torna-o oculto
-        submenu.style.display = 'none'; 
-    }s
-});
+// Elementos do menu
+const produto1Link = document.getElementById("produto1");
+const produto2Link = document.getElementById("produto2");
+const produto3Link = document.getElementById("produto3");
+
+// Área de conteúdo
+const conteudo = document.getElementById("conteudo");
+
+// Funções para exibir o conteúdo do produto
+function exibirProduto1() {
+    conteudo.innerHTML = "<h2>Produto 1</h2><p>Descrição do Produto 1.</p>";
+}
+
+function exibirProduto2() {
+    conteudo.innerHTML = "<h2>Produto 2</h2><p>Descrição do Produto 2.</p>";
+}
+
+function exibirProduto3() {
+    conteudo.innerHTML = "<h2>Produto 3</h2><p>Descrição do Produto 3.</p>";
+}
+
+// Adicionar ouvintes de eventos para cada link
+produto1Link.addEventListener("click", exibirProduto1);
+produto2Link.addEventListener("click", exibirProduto2);
+produto3Link.addEventListener("click", exibirProduto3);

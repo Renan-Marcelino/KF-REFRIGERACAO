@@ -100,7 +100,7 @@ s
     background: rgb(236, 16, 16);
 }
 
-@media screen and (max-width: 3000px) {
+@media screen and (max-width: 3000px){
 
     .navigation{
         padding: 18px 20px;
@@ -232,15 +232,18 @@ s
         top: 0px;
         left:0px;
     }
+
     #it1 {
         width: 150px;
     }
+
     .item2 {
         font-size: 13PX;
         position: static;
         top: 110px;
         left: 0px;
     }
+
     #it2 {
         width: 120px;
     }
@@ -251,6 +254,7 @@ s
         top: 130px;
         left: 0px;
     }
+
     #it3 {
         width: 120px;
     }
@@ -261,6 +265,7 @@ s
         top: 130px;
         left: 0px;
     }
+
     #it4 {
         width: 120px;
     }
@@ -271,6 +276,7 @@ s
         top: 130px;
         left: 0px;
     }
+
     #it5 {
         width: 120px;
     }
@@ -281,10 +287,10 @@ s
         top: 130px;
         left: 0px;
     }
+
     #it6 {
         width: 120px;
     }
-
 
     .painel1 {
             position: absolute;
@@ -296,12 +302,14 @@ s
         position: absolute;
         top: 100px;
         left: 230px;
-}
+    }
 
-.painel3 {
-    position: absolute;
-    top: 100px;
-    left: 950px;
+    .painel3 {
+        position: absolute;
+        top: 100px;
+        left: 950px;
+
+    }
 
 }
 
@@ -481,6 +489,7 @@ s
         display: block;
         background-color: #ffffff;
     }
+
     #item1-content {
         position: absolute;
         top: 50%;
@@ -491,18 +500,17 @@ s
     .item1 {
         font-size: 13PX;
         position: static;
-        top: 0px;
-        left:0px;
     }
+
     #it1 {
-        width: 150px;
+        width: 120px;
     }
+
     .item2 {
         font-size: 13PX;
         position: static;
-        top: 110px;
-        left: 0px;
     }
+
     #it2 {
         width: 120px;
     }
@@ -510,9 +518,8 @@ s
     .item3 {
         font-size: 13PX;
         position: static;
-        top: 130px;
-        left: 0px;
     }
+
     #it3 {
         width: 120px;
     }
@@ -520,9 +527,8 @@ s
     .item4 {
         font-size: 13PX;
         position: static;
-        top: 130px;
-        left: 0px;
     }
+
     #it4 {
         width: 120px;
     }
@@ -530,9 +536,8 @@ s
     .item5 {
         font-size: 13PX;
         position: static;
-        top: 130px;
-        left: 0px;
     }
+
     #it5 {
         width: 120px;
     }
@@ -540,18 +545,92 @@ s
     .item6 {
         font-size: 13PX;
         position: static;
-        top: 130px;
-        left: 0px;
     }
+
     #it6 {
         width: 120px;
     }
+    
+    .item7 {
+        font-size: 13PX;
+        position: static;
+    }
 
+    #it7 {
+        width: 120px;
+    }
 
+    .item8 {
+        font-size: 13PX;
+        position: static;
+    }
+
+    #it8 {
+        width: 120px;
+    }
+
+    .item9 {
+        font-size: 13PX;
+        position: static;
+    }
+
+    #it9 {
+        width: 120px;
+    }
+
+    .item10 {
+        font-size: 13PX;
+        position: static;
+    }
+
+    #it10 {
+        width: 120px;
+    }
+
+    .item11 {
+        font-size: 13PX;
+        position: static;
+    }
+
+    #it11 {
+        width: 120px;
+    }
+
+    .item12 {
+        font-size: 13PX;
+        position: static;
+    }
+
+    #it12 {
+        width: 120px;
+    }
+
+    .painel1 {
+        position: absolute;
+        top: 140px;
+        left: 430px;
+    }
+
+    .painel2 {
+        position: absolute;
+        top: 100px;
+        left: 180px;
+    }
+
+    .painel3 {
+        position: absolute;
+        top: 620px;
+        left: 180px;
+    }
+
+    .painel4 {
+        position: absolute;
+        top: 620px;
+        left: 430px;
+    }
 }
 
 @media screen and (max-width: 458px) {
-    
 }
 
 body {
@@ -653,5 +732,4 @@ a.menu-item {
 .pecas {
     display: none;
 }
-
 
